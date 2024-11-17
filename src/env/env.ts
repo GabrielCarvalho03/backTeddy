@@ -1,7 +1,5 @@
-import dotenv from "dotenv";
+import "dotenv/config";
 import { z } from "zod";
-
-dotenv.config({ path: ".env.local" });
 
 const envSchema = z.object({
   BASE_URL: z.string(),
