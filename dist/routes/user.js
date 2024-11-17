@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserRoute = void 0;
-const getUser_1 = require("../controllers/userController/getUser");
+const getUser_1 = require("@controllers/userController/getUser");
 const createUser_1 = require("@controllers/userController/createUser");
 const updateUser_1 = require("@controllers/userController/updateUser");
 const removeUser_1 = require("@controllers/userController/removeUser");

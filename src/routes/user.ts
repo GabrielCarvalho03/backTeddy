@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import { GetUser } from "../controllers/userController/getUser";
+import { GetUser } from "@controllers/userController/getUser";
 import { CreateUser } from "@controllers/userController/createUser";
 import { UpdateUser } from "@controllers/userController/updateUser";
 import { RemoveUser } from "@controllers/userController/removeUser";
