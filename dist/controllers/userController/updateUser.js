@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UpdateUser = void 0;
 const schema_1 = require("./schema");
-const api_1 = require("api/api");
+const api_1 = require("../../api/api");
 const UpdateUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { id } = req.params;

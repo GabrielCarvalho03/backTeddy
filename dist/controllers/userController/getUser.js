@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GetUser = void 0;
-const api_1 = require("api/api");
+const api_1 = require("../../api/api");
 const GetUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { _page, _limit } = req.query;
