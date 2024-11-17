@@ -1,6 +1,6 @@
 import { FastifyReply, FastifyRequest } from "fastify";
 import { CreateUserSchema } from "./schema";
-import { api } from "a../../api/api";
+import { api } from "../../api/api";
 
 export const RemoveUser = async (req: FastifyRequest, res: FastifyReply) => {
   try {
