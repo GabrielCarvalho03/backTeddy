@@ -2,5 +2,5 @@ import axios from "axios";
 import { ProcessEnv } from "env/env";
 
 export const api = axios.create({
-  baseURL: ProcessEnv.BASE_URL,
+  baseURL: "https://boasorte.teddybackoffice.com.br",
 });
